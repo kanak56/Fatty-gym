@@ -25,7 +25,7 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route path='/home'>
+            <Route exact path='/'>
               <Home></Home>
             </Route>
             <PrivateRoute path='/services/:description/:name'>

@@ -13,19 +13,19 @@ const LogIn = () => {
     const handleEmailLogIn = () => {
         signInUsingEmailPassword()
             .then(result => {
-                history.push(location.state?.from || '/home');
+                history.push(location.state?.from || '/');
             })
     }
     const handleGoogleLogIn = () => {
         signInUsingGoogle()
             .then(result => {
-                history.push(location.state?.from || '/home');
+                history.push(location.state?.from || '/');
             })
     }
     const handleGithubLogIn = () => {
         signInUsingGitHub()
             .then(result => {
-                history.push(location.state?.from || '/home');
+                history.push(location.state?.from || '/');
             })
     }
     return (
