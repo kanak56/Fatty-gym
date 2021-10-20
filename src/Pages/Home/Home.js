@@ -62,7 +62,7 @@ const Home = () => {
 
             <div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <h1 className='bg-dark text-white' style={{ width: '35%', height: '4rem', padding: '10px' }}>Why Excercise is Important for you</h1>
+                    <h1 className='bg-dark text-white' style={{ width: '50%', height: '8rem', padding: '10px' }}>Why Excercise is Important</h1>
                 </div>
                 <div style={{ width: '100%' }} className="row mt-4 row-cols-1 row-cols-md-3 g-4 ">
                     {

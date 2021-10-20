@@ -26,7 +26,7 @@ const Header = () => {
                         <NavLink className='p-4 text-2xl' to='/gallery'>Gallery</NavLink>
                         <NavLink className='p-4 text-2xl' to='/equipments'>Equipments</NavLink>
                         {user.providerData ? <Button className='p-4 text-2xl' onClick={logOut}>Log Out</Button> : <NavLink className='p-4 text-2xl' to='/login'>Login</NavLink>}
-                        <span style={{ fontFamily: 'Italianno' }}>{user?.displayName}</span>
+                        <span style={{ fontFamily: 'Italianno', marginLeft: '5%', fontSize: '40px' }}>{user?.displayName}</span>
                     </div>
                 </div>
                 <nav className="navbar navbar-dark bg-dark">
