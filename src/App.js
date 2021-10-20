@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Pages/Home/Home';
-import Services from './Pages/Services/Services';
 import Header from './Pages/Header/Header';
 import {
   BrowserRouter as Router, Switch,
@@ -26,7 +25,7 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route exact path='/home'>
+            <Route exact path='/'>
               <Home></Home>
             </Route>
             <PrivateRoute path='/services/:description/:name'>

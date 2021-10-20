@@ -8,8 +8,8 @@ const Header = () => {
     const { user, logOut } = useAuth();
     console.log(user);
     return (
-        <div className='text-red-400 bg-gray-300 text-4xl p-4 header'>
-            <div style={{ fontFamily: 'Italianno' }} className=' text-green-900 text-4xl'>
+        <div className='text-red-400 p-4 header'>
+            <div style={{ fontFamily: 'Italianno', fontSize: '80px' }} className=' text-green-900'>
                 Fatty's Gym
             </div>
             <div >
@@ -21,7 +21,7 @@ const Header = () => {
                 <span style={{ fontFamily: 'Italianno' }}>{user?.displayName}</span> */}
                 <div className="collapse navbar-expand-lg" id="navbarToggleExternalContent">
                     <div className="bg-dark p-4 navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <NavLink className='p-4 text-2xl' to='/home'>Home</NavLink>
+                        <NavLink className='p-4 text-2xl' to='/'>Home</NavLink>
                         <Nav.Link className='p-4 text-2xl' to='/services/:serviceId'>Services</Nav.Link>
                         <NavLink className='p-4 text-2xl' to='/gallery'>Gallery</NavLink>
                         <NavLink className='p-4 text-2xl' to='/equipments'>Equipments</NavLink>

@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router';
 
 const ServicesDetails = () => {
-    const { description, name, img } = useParams();
+    const { description, name } = useParams();
     return (
         <div className='text-white bg-dark'>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -12,7 +12,7 @@ const ServicesDetails = () => {
             <h1>Service Information Are Given Bellow:</h1>
             <h1>{name}</h1>
             <h3>{description}</h3>
-            <img src={img}></img>
+
         </div>
     );
 };
