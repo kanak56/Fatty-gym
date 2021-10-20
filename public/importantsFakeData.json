@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "heading": "Exercise controls weight",
+        "description": "Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity, you burn calories. The more intense the activity, the more calories you burn. Regular trips to the gym are great, but don't worry if you can't find a large chunk of time to exercise every day. Any amount of activity is better than none at all. "
+    },
+    {
+        "id": 2,
+        "heading": "Exercise combats health conditions and diseases",
+        "description": "Worried about heart disease? Hoping to prevent high blood pressure? No matter what your current weight is, being active boosts high-density lipoprotein (HDL) cholesterol, the 'good'cholesterol, and it decreases unhealthy triglycerides. This one-two punch keeps your blood flowing smoothly, which decreases your risk of cardiovascular diseases."
+    },
+    {
+        "id": 3,
+        "heading": "Exercise boosts energy",
+        "description": "Winded by grocery shopping or household chores? Regular physical activity can improve your muscle strength and boost your endurance.Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work more efficiently. And when your heart and lung health improve, you have more energy to tackle daily chores."
+    }
+]

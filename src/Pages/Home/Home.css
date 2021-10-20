@@ -1,0 +1,18 @@
+.importants{
+    background-image: linear-gradient(to right, #42275a, #734b6d);
+    color: white;
+}
+.importants:hover{
+    transform: translate(10px, 10px);
+}
+
+.container{
+    margin-top: 10%;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
