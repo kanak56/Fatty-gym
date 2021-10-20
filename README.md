@@ -22,7 +22,7 @@ We are providing the best Equipments.
 
 ### Legal Info
 
-**Note: All the imformation that mentioned above are not real and is invalid**
+**Note: All the imformation that mentioned above are not real and is invalid I have Used this data only for educational purpose**
 
 
 ## If you want to know more Live site link are given below
